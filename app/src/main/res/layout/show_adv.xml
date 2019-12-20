@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/show_adv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.grage_bisha.Show_adv"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:background="#7a5a33"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout6">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:id="@+id/button12"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/ic_favorite_black_24dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:text="تفاصيل الاعلان"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:id="@+id/button16"
+            android:background="@android:color/transparent"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/as"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_above="@+id/button11">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/nonScrollListView"
+                    android:layout_below="@+id/textView233"
+                    android:layout_marginBottom="15dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView9"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp" />
+                    <!--<com.tupple.demomaster.mirroreffect.TouchImageView-->
+                    <!--android:id="@+id/image1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:src="@drawable/wall" />-->
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView8"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView7"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView6"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView3"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp" />
+                </LinearLayout>
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/onclik2"
+                    android:background="?attr/colorControlHighlight"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="7dp">
+
+                    <!--android:maxLines="1"-->
+
+                    <com.example.user.grage_bisha.MyTextViewbigr
+                        android:textSize="12sp"
+                        android:text="حراج بيشة"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView38"
+                        android:layout_toLeftOf="@+id/imageView"
+                        android:layout_toStartOf="@+id/imageView"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+
+
+                        android:layout_alignParentBottom="true" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/textView16"
+                        android:gravity="right" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView17"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true" />
+
+                    <!--android:drawableRight="@drawable/pers"-->
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:text="محتوي المنتج"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/onclik2"
+                    android:id="@+id/textView233"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textStyle="normal|bold"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/nonScrollListView"
+                    android:layout_marginBottom="9dp"
+                    android:id="@+id/relativeLayout5"
+                    android:background="?attr/colorControlHighlight">
+
+                    <TextView
+                        android:text="0919390260"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/textView20"
+                        android:gravity="right|center"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:drawableRight="@android:drawable/sym_action_call" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/relativeLayout5">
+
+                    <TextView
+                        android:text="التعليقات :"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView22"
+                        android:gravity="right"
+                        android:paddingRight="5dp"
+                        android:paddingLeft="5dp"
+                        android:textColor="#000"
+                        android:textStyle="normal|bold" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ProgressBar
+                            android:id="@+id/progressBar1"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+                            android:elevation="3dp"
+                            tools:layout_width="wrap_content"
+                            android:layout_alignParentEnd="false"
+                            android:layout_alignParentRight="false"
+                            android:layout_alignParentStart="false"
+                            android:layout_alignParentBottom="false"
+                            android:layout_alignParentLeft="false"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_gravity="center_vertical"
+
+                            android:drawableLeft="?android:attr/alertDialogIcon"
+                            />
+
+                        <Button
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/erorrp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+
+                            android:elevation="3dp"
+                            tools:layout_width="wrap_content"
+                            android:layout_alignParentEnd="false"
+                            android:layout_alignParentRight="false"
+                            android:layout_alignParentStart="false"
+                            android:layout_alignParentBottom="false"
+                            android:layout_alignParentLeft="false"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/rounded_edge3"
+                            android:drawableLeft="?android:attr/alertDialogIcon"
+                            android:text="فشل الاتصال اع المحاولة" />
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/recylcerView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:layout_editor_absoluteX="745dp"
+                            tools:layout_editor_absoluteY="-51dp"
+                            android:paddingBottom="3dp"
+                            android:background="#fff"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentStart="true" />
+
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+
+        android:text="اكتب تعليقا "
+
+        android:id="@+id/button11"
+        android:background="?attr/colorAccent"
+        android:textColor="#fff"/>
+
+
+</RelativeLayout>
+
+
+

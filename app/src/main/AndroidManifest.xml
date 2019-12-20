@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.grage_bisha">
+
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lo2"
+        android:label="حراج بيشة"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="."
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Show_det" />
+        <activity android:name=".Consternt" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".Add_tipe" />
+        <activity
+            android:name=".Tibe_add"
+            android:label="اختر فيئة الاعلان" />
+        <activity android:name=".Add_content" />
+        <activity android:name=".Upload_image" />
+        <activity android:name=".UploadActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="اختر صور السلعة" />
+        <activity android:name=".Main3Activity" />
+        <activity
+            android:name=".My_Fevort"
+            android:label="@string/title_activity_my__fevort"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".My_adv"
+            android:label="@string/title_activity_my_adv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Show_adv"
+            android:label="تفاصيل الاعلان" />
+        <activity
+            android:name=".Serch"
+            android:label="@string/title_activity_serch"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity -->
+        <!-- android:name="com.example.user.grage_albl.Main4Activity" -->
+        <!-- android:label="@string/title_activity_main4" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <activity
+            android:name=".V_code"
+            android:label="كود تفعيل الحساب" />
+        <activity android:name=".Notification" />
+        <activity android:name=".Noti" />
+        <activity android:name=".View_image"></activity>
+
+        <activity
+
+            android:name=".Upload_prudect"
+            android:label="رفع اعلان"></activity>
+
+
+        <activity android:name=".Image_Ve">
+
+        </activity>
+
+    </application>
+
+</manifest>

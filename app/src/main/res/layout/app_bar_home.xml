@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:context="com.example.user.grage_bisha.Home"
+
+android:background="#ffffff">
+
+
+<!--<ProgressBar-->
+    <!--android:id="@+id/progressBar1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:elevation="3dp"-->
+    <!--tools:layout_width="wrap_content"-->
+    <!--android:layout_alignParentEnd="false"-->
+    <!--android:layout_alignParentRight="false"-->
+    <!--android:layout_alignParentStart="false"-->
+    <!--android:layout_alignParentBottom="false"-->
+    <!--android:layout_alignParentLeft="false"-->
+    <!--android:paddingLeft="5dp"-->
+    <!--android:paddingRight="5dp"-->
+    <!--android:layout_gravity="center_vertical"-->
+
+    <!--android:drawableLeft="?android:attr/alertDialogIcon"-->
+    <!--/>-->
+
+<!--<com.example.user.grage_bisha.CustomButtona-->
+    <!--android:layout_width="240dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/erorrp"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+
+    <!--android:elevation="3dp"-->
+    <!--tools:layout_width="wrap_content"-->
+    <!--android:layout_alignParentEnd="false"-->
+    <!--android:layout_alignParentRight="false"-->
+    <!--android:layout_alignParentStart="false"-->
+    <!--android:layout_alignParentBottom="false"-->
+    <!--android:layout_alignParentLeft="false"-->
+    <!--android:paddingLeft="5dp"-->
+    <!--android:paddingRight="5dp"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:text="فشل الاتصال اعد المحاولة"-->
+    <!--android:textSize="14dp"-->
+    <!--android:drawableTop="@drawable/er" />-->
+
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    android:background="@color/colorPrimary"
+    app:elevation="1dp">
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp">
+
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="23dp"
+            android:layout_alignBottom="@+id/button14"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/button15"
+            android:background="@drawable/search2"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <com.example.user.grage_bisha.MyTextViewbig
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:id="@+id/button14"
+            android:textColor="#fff"
+android:text="ّحـراج بيشة"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:textSize="36sp" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:gravity="center"
+
+            android:layout_gravity="center"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/linearLayout4"
+        android:background="#0d684f"
+        android:elevation="1dp">
+
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:tabMode="scrollable"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="#fff" />
+
+</android.support.design.widget.AppBarLayout>
+
+
+
+
+<include layout="@layout/content_home" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        app:srcCompat="@drawable/not_icon"
+
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom|left"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/newadd"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        app:backgroundTint="@color/colorPrimary" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/add_b"
+
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:background="?attr/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom|right"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/newadd2"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp" />
+    <klogi.com.RtlViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+
+</android.support.design.widget.CoordinatorLayout>

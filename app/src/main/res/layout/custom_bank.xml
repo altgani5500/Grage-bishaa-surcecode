@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_edge3">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        xmlns:widget="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/rounded_edge3"
+        android:orientation="horizontal"
+
+        android:id="@+id/relativeLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <!--  ListRow Left sied Thumbnail image -->
+
+        <!-- Title Of Song-->
+        <TextView
+            android:id="@+id/title"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3449bb"
+            android:typeface="sans"
+            android:textSize="13dip"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_edge3" />
+
+        <!-- Artist Name -->
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:textColor="#343434"
+            android:textSize="18dp"
+            android:gravity="right"
+            android:layout_below="@+id/textView15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-5dp"
+            android:background="@drawable/raghi" />
+
+        <TextView
+            android:text="الايداع في الحساب ادناه بنك الراجحي:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView15"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:textColor="@color/colorPrimary" />
+
+        <!-- Rightend Duration -->
+
+
+        <!-- Rightend Arrow -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp">
+
+
+        <Button
+            android:background="#0d684f"
+
+            android:id="@+id/app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اغلاغ النافذة"
+
+            android:layout_weight="2"
+            android:layout_marginLeft="0dp"
+            android:textColor="#ffffff"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="650608010033002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2"
+        android:id="@+id/textView14"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/colorPrimary" />
+
+
+</RelativeLayout>

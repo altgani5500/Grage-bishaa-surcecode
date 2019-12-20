@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/onclik2"
+        android:background="#fff"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra)"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="@color/colorPrimary"
+android:maxLines="1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView"
+            android:textStyle="normal|bold"
+            android:textSize="16sp" />
+        <!--android:maxLines="1"-->
+
+        <TextView
+            android:id="@+id/textViewRating"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="3dp"
+            android:text="13.3 Inch, 256 GB"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_toRightOf="@+id/textViewPrice"
+            android:maxLines="3"
+            android:layout_marginBottom="3dp"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/textViewRating"
+            android:layout_marginTop="5dp"
+            android:text="INR 56990"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+
+        <TextView
+            android:text="اقرا المزيد"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView25"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="normal|bold"
+            android:textSize="12sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp" />
+
+        <TextView
+            android:textSize="12sp"
+            android:text="حراج بيشة"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/textView38"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+
+
+            android:layout_alignParentBottom="true" />
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:id="@+id/linearLayout2"
+
+            android:background="#fff"
+            android:layout_alignEnd="@+id/textView62"
+            android:layout_above="@+id/textView25"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:gravity="center">
+
+            <Button
+
+
+                android:text="تعديل"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+
+
+                android:background="?attr/colorAccent"
+
+
+                android:textColor="#fff"
+
+                android:layout_weight="2"
+
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                android:elevation="0dp"
+
+                android:paddingTop="7dp"
+                android:layout_centerVertical="true"
+
+
+
+
+
+
+
+
+
+
+                android:id="@+id/button441"
+
+
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:gravity="center_horizontal|center" />
+
+
+            <Button
+                android:text="حذف"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/button2221"
+
+                android:background="@android:color/holo_red_dark"
+
+
+                android:textColor="#fff"
+
+
+                android:layout_weight="2"
+
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                android:elevation="0dp"
+
+                android:paddingTop="7dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp" />
+        </LinearLayout>
+        <!--android:drawableRight="@drawable/pers"-->
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/textView38"
+            android:layout_toEndOf="@+id/textView38"
+            android:id="@+id/textView62" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

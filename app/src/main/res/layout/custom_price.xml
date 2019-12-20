@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_edge3"
+    android:padding="7dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edge3"
+        android:orientation="horizontal"
+
+        android:id="@+id/relativeLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <!--  ListRow Left sied Thumbnail image -->
+
+        <!-- Title Of Song-->
+        <TextView
+
+            android:id="@+id/title"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:typeface="sans"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_edge3"
+            android:text="ادخل سعر سلعتك :"
+            android:layout_marginBottom="5dp"
+            android:gravity="center" />
+
+        <!-- Artist Name -->
+
+        <!-- Rightend Duration -->
+
+        <!-- Rightend Arrow -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginTop="34dp"
+        android:layout_alignTop="@+id/editText12"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+
+        android:id="@+id/editText12"
+        android:layout_marginTop="6dp"
+        android:hint="ادخل السعر هنا"
+        android:maxLength="20"
+        android:background="@drawable/test2222"
+        android:textSize="14sp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical|center"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/editText12"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:textColor="#0d684f" />
+
+    <Button
+        android:background="@color/colorPrimary"
+        android:id="@+id/app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="عرض النسبة المستحقة"
+        android:onClick="FragmentTwoClick"
+        android:layout_weight="2"
+        android:layout_marginLeft="0dp"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="2dp" />
+
+
+</RelativeLayout>

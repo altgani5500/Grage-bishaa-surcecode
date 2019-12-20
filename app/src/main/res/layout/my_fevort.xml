@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.user.grage_bisha.My_Fevort">
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_scrollFlags="enterAlways"
+        app:elevation="1dp"
+        android:fitsSystemWindows="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+
+                android:layout_weight="1" />
+
+            <com.example.user.grage_bisha.CustomButtona
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button13"
+                android:gravity="right|center"
+android:text="مفضلتي"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:layout_alignParentEnd="true"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:drawableLeft="@android:drawable/ic_menu_delete" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+
+        layout="@layout/content_my__fevort"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:elevation="3dp"
+        tools:layout_width="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_gravity="center_vertical"
+
+        android:drawableLeft="?android:attr/alertDialogIcon"
+        />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/erorrp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:elevation="3dp"
+        tools:layout_width="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rounded_edge3"
+        android:drawableLeft="?android:attr/alertDialogIcon"
+        android:text="فشل الاتصال اع المحاولة" />
+
+
+</android.support.design.widget.CoordinatorLayout>

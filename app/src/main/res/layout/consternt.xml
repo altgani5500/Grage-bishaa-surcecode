@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/consternt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.grage_bisha.Consternt">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/relativeLayout2"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sc1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_above="@+id/button4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="بسم الله الرحمن الرحيم"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:text="قال تعالي :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:gravity="center"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:text="وَأَوْفُوا بِعَهْدِ اللَّهِ إِذَا عَاهَدتُّمْ وَلَا تَنقُضُوا الْأَيْمَانَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ اللَّهَ عَلَيْكُمْ كَفِيلًا ۚ إِنَّ اللَّهَ يَعْلَمُ مَا تَفْعَلُونَ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:text="صدق الله العظيم"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:layout_marginTop="20dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:id="@+id/textView7"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="8dp"
+                android:background="?attr/colorButtonNormal" />
+
+            <TextView
+                android:text="اتعهد واقسم بالله انا المعلن ان ادفع عمولة الموقع وهي 1% من قيمة السلعة في حالة بيعها عن طريق التطبيق او بسبب التطبيق وانا هذة العمولة امانة في ذمتي ولا ترا ذمتي الا في حالة دفعها "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:gravity="center" />
+
+            <Switch
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:text="اوافق علي المعاهدة"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="?attr/colorButtonNormal"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="8dp"
+
+                />
+
+            <TextView
+
+                android:text="اتعهد انا المعلن انا جميع المعلومات التي سوف اذكرها بالاعلان صحيحة وفي القسم الصحيح واتعهد بان الصور التي سوف يتم عرضها هي صور حديثة لنفس السلعة وليست لسلعة اخري مشابهة"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_marginTop="9dp"
+                android:gravity="center" />
+
+            <Switch
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:text="اوافق علي المعاهدة"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch2" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="?attr/colorButtonNormal"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="8dp"
+                />
+
+            <TextView
+                android:text="اتعهد انا المعلن ان ادفع العمولة خلال اقل من خمسة ايام من تاريخ استلام كامل سعر السلعة"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:gravity="center" />
+
+
+
+            <Switch
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:text="اوافق علي المعاهدة"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch1" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:text="متابعه"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

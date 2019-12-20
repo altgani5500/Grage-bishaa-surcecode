@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="اضافة اعلان" />
+            <!--android:icon="@drawable/ic_menu_camera"-->
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="مستخدم جديد" />
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="اعلاناتي" />
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+
+        <item
+            android:id="@+id/nav_manage"
+            android:title="المفضلة" />
+            <!--android:icon="@drawable/ic_menu_manage"-->
+
+
+
+        <item
+            android:id="@+id/nav_manage2"
+            android:title="حساب النسبة" />
+            <!--android:icon="@drawable/ic_menu_manage"-->
+
+
+
+        <item
+            android:id="@+id/nav_bank"
+            android:title="طرق دفع العمولة" />
+            <!--android:icon="@drawable/ic_menu_manage"-->
+
+    </group>
+
+    <item android:title="معلومات التطبيق">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="عن التطبيق" />
+                <!--android:icon="@drawable/ic_menu_share"-->
+
+            <item
+                android:id="@+id/nav_send"
+                android:title="عن المصمم" />
+                <!--android:icon="@drawable/ic_menu_send"-->
+
+
+            <item
+                android:id="@+id/nav_send2"
+
+                android:title="تواصل معنا" />
+            <!--android:icon="@drawable/ic_menu_send"-->
+        </menu>
+    </item>
+
+</menu>

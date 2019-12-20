@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.grage_bisha.Login"
+    android:background="#fff">
+
+    <Button
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:text="تسجيل جديد"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/button6"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp" />
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:text="تسجيل دخول "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:textColor="#fff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:paddingRight="7dp"
+            android:paddingLeft="7dp"
+            android:textSize="18sp"
+            android:paddingBottom="5dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:hint="رقم الهاتف بدون صفر"
+            android:gravity="center_vertical|center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:textColorLink="#0d684f"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/cucode" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:id="@+id/editText"
+            android:hint="   كلمة المرور"
+            android:layout_below="@+id/editText3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="10dp"
+            android:textColorLink="#0d684f"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical|center" />
+
+        <Button
+            android:textSize="18dp"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:text="دخول"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/checkBox2"
+            android:layout_marginTop="10dp" />
+
+        <CheckBox
+            android:textColor="#000"
+            android:text="حفظ بيانات الدخول"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/checkBox2"
+            android:gravity="center"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
